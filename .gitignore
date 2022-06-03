@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+#file
+*.json
+!package.json
+!package-lock.json
+
+# dependencies
+/.idea
+/node_modules
+/.pnp
+.pnp.js
+/config/
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+src/.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+

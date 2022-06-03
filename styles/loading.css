@@ -1,0 +1,30 @@
+.loader {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: visible;
+  z-index: 10;
+}
+
+.loader>div{
+  height: 100px;
+  width: 100px;
+  border: 15px solid #c3eae8;
+  border-top-color: #a0d0d0;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  animation: spin 0.5s infinite linear;
+}
+@keyframes spin{
+  100%{
+    transform: rotate(360deg);
+  }
+}
